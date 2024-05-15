@@ -4,7 +4,7 @@ import { FaCalendarAlt, FaSlack, FaTheaterMasks, FaUserInjured, FaFileAlt } from
 
 const Index = () => {
   const calculateTimeLeft = () => {
-    const difference = +new Date("2023-11-30") - +new Date();
+    const difference = +new Date("2024-06-14") - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
@@ -46,7 +46,7 @@ const Index = () => {
   return (
     <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center" bg="black" color="white">
       <VStack spacing={8}>
-        <Text fontSize="4xl" fontWeight="bold">
+        <Text fontSize="4xl" fontWeight="bold" textAlign="center">
           Surgeflow
         </Text>
         <Text fontSize="2xl">Join the Waiting List</Text>
